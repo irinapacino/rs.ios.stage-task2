@@ -27,7 +27,7 @@
         [returnArray addObjectsFromArray:numbersArray];
     } else {
         [returnArray addObject:numbersArray];
-        [returnArray addObject:numbersArray];
+        [returnArray addObject:stringsArray];
     }
 //    NSString *endString = [returnArray componentsJoinedByString:@""];
 //    NSLog(@"%@", endString);
