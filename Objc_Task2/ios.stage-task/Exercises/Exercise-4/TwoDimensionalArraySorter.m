@@ -27,7 +27,7 @@
         [returnArray addObjectsFromArray:numbersArray];
     } else {
         [returnArray addObject:numbersArray];
-        [returnArray addObject:stringsArray];
+        [returnArray addObject:[[stringsArray reverseObjectEnumerator] allObjects]];
     }
 //    NSString *endString = [returnArray componentsJoinedByString:@""];
 //    NSLog(@"%@", endString);
